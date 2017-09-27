@@ -11,14 +11,18 @@ namespace Hotels.Domain
 {
     public class ServiceContext : ZowarahContext
     {
-
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Zowar;User Id=sa;Password=qwe123;Trusted_Connection=True");
+        }
         public DbSet<Hotels> Hotels { get; set; }
+
     }
 
     public class Hotels : AuditableEntity<long>
     {
-        [Key]
-        public string Id { get; set; }
+        public string HotelId { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
     }

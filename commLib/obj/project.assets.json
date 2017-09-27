@@ -7375,11 +7375,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\Projects\\Zowar\\commLib\\commLib.csproj",
+      "projectUniqueName": "C:\\Projects\\Zowar\\Zowarah\\commLib\\commLib.csproj",
       "projectName": "commLib",
-      "projectPath": "c:\\Projects\\Zowar\\commLib\\commLib.csproj",
+      "projectPath": "C:\\Projects\\Zowar\\Zowarah\\commLib\\commLib.csproj",
       "packagesPath": "C:\\Users\\amr.ehsan\\.nuget\\packages\\",
-      "outputPath": "c:\\Projects\\Zowar\\commLib\\obj\\",
+      "outputPath": "C:\\Projects\\Zowar\\Zowarah\\commLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amr.ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7390,12 +7390,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {

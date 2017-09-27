@@ -8,3 +8,14 @@ c:\Projects\Zowar\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.csproj.CoreCompile
 c:\Projects\Zowar\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.AssemblyInfo.cs
 c:\Projects\Zowar\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.dll
 c:\Projects\Zowar\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.pdb
+C:\Projects\Zowar\Zowarah\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.deps.json
+C:\Projects\Zowar\Zowarah\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.runtimeconfig.json
+C:\Projects\Zowar\Zowarah\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.runtimeconfig.dev.json
+C:\Projects\Zowar\Zowarah\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.dll
+C:\Projects\Zowar\Zowarah\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.pdb
+C:\Projects\Zowar\Zowarah\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.csprojResolveAssemblyReference.cache
+C:\Projects\Zowar\Zowarah\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.csproj.CoreCompileInputs.cache
+C:\Projects\Zowar\Zowarah\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.AssemblyInfoInputs.cache
+C:\Projects\Zowar\Zowarah\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.AssemblyInfo.cs
+C:\Projects\Zowar\Zowarah\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.dll
+C:\Projects\Zowar\Zowarah\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.pdb

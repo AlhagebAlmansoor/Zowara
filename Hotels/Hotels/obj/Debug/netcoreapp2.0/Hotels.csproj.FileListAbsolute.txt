@@ -1,0 +1,13 @@
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\bin\Debug\netcoreapp2.0\Hotels.deps.json
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\bin\Debug\netcoreapp2.0\Hotels.runtimeconfig.json
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\bin\Debug\netcoreapp2.0\Hotels.runtimeconfig.dev.json
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\bin\Debug\netcoreapp2.0\Hotels.dll
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\bin\Debug\netcoreapp2.0\Hotels.pdb
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\bin\Debug\netcoreapp2.0\commLib.dll
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\bin\Debug\netcoreapp2.0\commLib.pdb
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp2.0\Hotels.csprojResolveAssemblyReference.cache
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp2.0\Hotels.csproj.CoreCompileInputs.cache
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp2.0\Hotels.AssemblyInfoInputs.cache
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp2.0\Hotels.AssemblyInfo.cs
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp2.0\Hotels.dll
+C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp2.0\Hotels.pdb
