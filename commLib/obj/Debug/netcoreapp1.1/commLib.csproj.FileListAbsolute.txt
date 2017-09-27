@@ -1,0 +1,8 @@
+c:\Projects\Zowar\commLib\bin\Debug\netcoreapp1.1\commLib.deps.json
+c:\Projects\Zowar\commLib\bin\Debug\netcoreapp1.1\commLib.dll
+c:\Projects\Zowar\commLib\obj\Debug\netcoreapp1.1\commLib.csproj.CoreCompileInputs.cache
+c:\Projects\Zowar\commLib\obj\Debug\netcoreapp1.1\commLib.AssemblyInfo.cs
+c:\Projects\Zowar\commLib\obj\Debug\netcoreapp1.1\commLib.csprojResolveAssemblyReference.cache
+c:\Projects\Zowar\commLib\bin\Debug\netcoreapp1.1\commLib.pdb
+c:\Projects\Zowar\commLib\obj\Debug\netcoreapp1.1\commLib.dll
+c:\Projects\Zowar\commLib\obj\Debug\netcoreapp1.1\commLib.pdb

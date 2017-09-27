@@ -1,0 +1,10 @@
+c:\Projects\Zowar\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.deps.json
+c:\Projects\Zowar\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.runtimeconfig.json
+c:\Projects\Zowar\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.runtimeconfig.dev.json
+c:\Projects\Zowar\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.dll
+c:\Projects\Zowar\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.pdb
+c:\Projects\Zowar\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.csprojResolveAssemblyReference.cache
+c:\Projects\Zowar\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.csproj.CoreCompileInputs.cache
+c:\Projects\Zowar\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.AssemblyInfo.cs
+c:\Projects\Zowar\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.dll
+c:\Projects\Zowar\WebPortal\obj\Debug\netcoreapp1.1\WebPortal.pdb
