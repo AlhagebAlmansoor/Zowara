@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebPortal.Models
+namespace Hotels.Models
 {
     public class Hotel : AuditableEntity<long>
     {
-
-        public long Id { get; set; }
+        public string HotelId { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
     }

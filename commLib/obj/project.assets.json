@@ -7375,11 +7375,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Zowar\\Zowarah\\commLib\\commLib.csproj",
+      "projectUniqueName": "C:\\projects\\Zowara\\commLib\\commLib.csproj",
       "projectName": "commLib",
-      "projectPath": "C:\\Projects\\Zowar\\Zowarah\\commLib\\commLib.csproj",
+      "projectPath": "C:\\projects\\Zowara\\commLib\\commLib.csproj",
       "packagesPath": "C:\\Users\\mazen.mustafa\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Zowar\\Zowarah\\commLib\\obj\\",
+      "outputPath": "C:\\projects\\Zowara\\commLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mazen.mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -34,7 +34,6 @@ namespace commLib
 
             //modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             base.OnModelCreating(modelBuilder);
-
         }
 
 

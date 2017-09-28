@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Hotels.Models;
 namespace Hotels.Domain
 {
     public class ServiceContext : ZowarahContext
@@ -21,10 +22,4 @@ namespace Hotels.Domain
 
     }
 
-    public class Hotel : AuditableEntity<long>
-    {
-        public string HotelId { get; set; }
-        public string Name { get; set; }
-        public string Address { get; set; }
-    }
 }

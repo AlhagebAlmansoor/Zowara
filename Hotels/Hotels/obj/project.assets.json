@@ -10768,11 +10768,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Zowar\\Zowarah\\Hotels\\Hotels\\Hotels.csproj",
+      "projectUniqueName": "C:\\projects\\Zowara\\Hotels\\Hotels\\Hotels.csproj",
       "projectName": "Hotels",
-      "projectPath": "C:\\Projects\\Zowar\\Zowarah\\Hotels\\Hotels\\Hotels.csproj",
+      "projectPath": "C:\\projects\\Zowara\\Hotels\\Hotels\\Hotels.csproj",
       "packagesPath": "C:\\Users\\mazen.mustafa\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Zowar\\Zowarah\\Hotels\\Hotels\\obj\\",
+      "outputPath": "C:\\projects\\Zowara\\Hotels\\Hotels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mazen.mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",

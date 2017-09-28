@@ -23,3 +23,16 @@ C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.AssemblyI
 C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.AssemblyInfo.cs
 C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.dll
 C:\Projects\Zowar\Zowarah\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.pdb
+C:\projects\Zowara\Hotels\Hotels\bin\Debug\netcoreapp1.1\Hotels.deps.json
+C:\projects\Zowara\Hotels\Hotels\bin\Debug\netcoreapp1.1\Hotels.runtimeconfig.json
+C:\projects\Zowara\Hotels\Hotels\bin\Debug\netcoreapp1.1\Hotels.runtimeconfig.dev.json
+C:\projects\Zowara\Hotels\Hotels\bin\Debug\netcoreapp1.1\Hotels.dll
+C:\projects\Zowara\Hotels\Hotels\bin\Debug\netcoreapp1.1\Hotels.pdb
+C:\projects\Zowara\Hotels\Hotels\bin\Debug\netcoreapp1.1\commLib.dll
+C:\projects\Zowara\Hotels\Hotels\bin\Debug\netcoreapp1.1\commLib.pdb
+C:\projects\Zowara\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.csprojResolveAssemblyReference.cache
+C:\projects\Zowara\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.AssemblyInfo.cs
+C:\projects\Zowara\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.dll
+C:\projects\Zowara\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.pdb
+C:\projects\Zowara\Hotels\Hotels\obj\Debug\netcoreapp1.1\Hotels.AssemblyInfoInputs.cache

@@ -3,20 +3,21 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Hotels.Domain;
+using WebPortal.Domain;
 
-namespace Hotels.Migrations
+namespace WebPortal.Migrations
 {
     [DbContext(typeof(ServiceContext))]
-    partial class ServiceContextModelSnapshot : ModelSnapshot
+    [Migration("20170928091048_SecondMigration")]
+    partial class SecondMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
-                .HasAnnotation("ProductVersion", "1.1.3")
+                .HasAnnotation("ProductVersion", "1.1.2")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Hotels.Models.Hotel", b =>
+            modelBuilder.Entity("WebPortal.Models.Hotel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
@@ -27,8 +28,6 @@ namespace Hotels.Migrations
                         .HasMaxLength(256);
 
                     b.Property<DateTime>("CreatedDate");
-
-                    b.Property<string>("HotelId");
 
                     b.Property<string>("Name");
 

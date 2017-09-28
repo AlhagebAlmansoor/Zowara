@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using commLib;
 using Hotels.Domain;
+using Hotels.Models;
 namespace Hotels.Controllers
 {
     public class HotelsController : Controller
@@ -22,7 +23,7 @@ namespace Hotels.Controllers
             return View();
         }
 
-        public List<Domain.Hotel> GetHotels()
+        public List<Hotel> GetHotels()
         {
             ServiceContext context = new ServiceContext();
             return context.Hotels.ToList();

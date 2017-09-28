@@ -10773,11 +10773,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Zowar\\Zowarah\\WebPortal\\WebPortal.csproj",
+      "projectUniqueName": "C:\\projects\\Zowara\\WebPortal\\WebPortal.csproj",
       "projectName": "WebPortal",
-      "projectPath": "C:\\Projects\\Zowar\\Zowarah\\WebPortal\\WebPortal.csproj",
+      "projectPath": "C:\\projects\\Zowara\\WebPortal\\WebPortal.csproj",
       "packagesPath": "C:\\Users\\mazen.mustafa\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Zowar\\Zowarah\\WebPortal\\obj\\",
+      "outputPath": "C:\\projects\\Zowara\\WebPortal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mazen.mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",

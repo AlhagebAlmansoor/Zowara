@@ -15,3 +15,12 @@ C:\Projects\Zowar\Zowarah\commLib\obj\Debug\netcoreapp1.1\commLib.AssemblyInfoIn
 C:\Projects\Zowar\Zowarah\commLib\obj\Debug\netcoreapp1.1\commLib.AssemblyInfo.cs
 C:\Projects\Zowar\Zowarah\commLib\obj\Debug\netcoreapp1.1\commLib.dll
 C:\Projects\Zowar\Zowarah\commLib\obj\Debug\netcoreapp1.1\commLib.pdb
+C:\projects\Zowara\commLib\bin\Debug\netcoreapp1.1\commLib.deps.json
+C:\projects\Zowara\commLib\bin\Debug\netcoreapp1.1\commLib.dll
+C:\projects\Zowara\commLib\bin\Debug\netcoreapp1.1\commLib.pdb
+C:\projects\Zowara\commLib\obj\Debug\netcoreapp1.1\commLib.csprojResolveAssemblyReference.cache
+C:\projects\Zowara\commLib\obj\Debug\netcoreapp1.1\commLib.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\commLib\obj\Debug\netcoreapp1.1\commLib.AssemblyInfo.cs
+C:\projects\Zowara\commLib\obj\Debug\netcoreapp1.1\commLib.dll
+C:\projects\Zowara\commLib\obj\Debug\netcoreapp1.1\commLib.pdb
+C:\projects\Zowara\commLib\obj\Debug\netcoreapp1.1\commLib.AssemblyInfoInputs.cache

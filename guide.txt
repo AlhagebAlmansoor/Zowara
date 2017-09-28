@@ -28,3 +28,14 @@ transactions (id,debit,credit,date,description)
 Service (Zowara)
 FindRoom (from_price,to_price,from_date,to_date,no_sections)
 Reserve  (room_id,from_date,to_date)
+
+
+
+QUESTIONS
+changing into core 2 ,, problems 
+
+
+Error Messages :
+var connectionString = configuration.GetConnectionString("DefaultConnection");
+
+https://www.codeproject.com/Tips/1074608/CRUD-in-ASP-NET-MVC-using-WebAPI-with-AngularJS

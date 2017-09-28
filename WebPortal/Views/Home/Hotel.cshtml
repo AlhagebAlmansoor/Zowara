@@ -1,0 +1,91 @@
+
+@{
+    ViewData["Title"] = "Hotel";
+}
+
+<div ng-app="demoModule" id="body">
+    <div ng-controller="demoCtrl">
+        <h2>Amgular Hotel Test</h2>
+
+        <h3>List of Hotels</h3>
+
+        <table ng-cloak>
+            <thead>
+                <tr>
+                    <th style="display: none;">ID</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="items in hotelData">
+                    <td hidden="hidden">{{items.Id}}</td>
+                    <td>{{items.Name}}</td>
+                    <td>{{items.Address}}</td>
+                    <td>
+                        <button ng-model="$scope.Hotel"
+                                ng-click="edit(hotelsData[$index])">
+                            Edit
+                        </button>
+                        <button ng-click="delete($index)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">
+                        <hr />
+                    </td>
+                </tr>
+              </tfoot>
+        </table>
+        <br />
+        <div style="border-top: solid 2px #282828; width: 430px; height: 10px"> </div>
+
+        <div ng-show="Hotel.Id != '' ">
+            <div>
+                <h2>Update Hotel</h2>
+            </div>
+            <div hidden="hidden">
+                <label for="id">Id</label>
+                <input type="text" data-ng-model="Hotel.Id" />
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" data-ng-model="Hotel.Name" />
+            </div>
+
+            <div>
+                <label for="category">Address</label>
+                <input type="text" data-ng-model="Hotel.Address" />
+            </div>
+
+            <br />
+            <div>
+                <button data-ng-click="update()">Update</button>
+                <button data-ng-click="cancel()">Cancel</button>
+            </div>
+        </div>
+
+        <div ng-hide="Hotel.Id != '' ">
+            <div>
+                <h2>Add New Hotel</h2>
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" data-ng-model="Hotel.Name" />
+            </div>
+
+            <div>
+                <label for="category">Address</label>
+                <input type="text" data-ng-model="Hotel.Address" />
+            </div>
+
+            <br />
+            <div>
+                <button data-ng-click="save()">Save</button>
+                <button data-ng-click="clear()">Clear</button>
+            </div>
+        </div>
+    </div>
+</div>
