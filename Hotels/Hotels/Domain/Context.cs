@@ -16,11 +16,12 @@ namespace Hotels.Domain
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Zowar;User Id=sa;Password=qwe123;Trusted_Connection=True");
         }
-        public DbSet<Hotels> Hotels { get; set; }
+
+        public DbSet<Hotel> Hotels { get; set; }
 
     }
 
-    public class Hotels : AuditableEntity<long>
+    public class Hotel : AuditableEntity<long>
     {
         public string HotelId { get; set; }
         public string Name { get; set; }

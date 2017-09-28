@@ -34,7 +34,7 @@ namespace Hotels
 
             //var connection = Configuration["DbConnectionString"];
             Console.WriteLine("HELLO WORLD !");
-            services.AddDbContext<ServiceContext>(options => options.UseSqlServer("Server=(local)\\SQLEXPRESS;initial catalog=Zowarah;user id=sa;password=qwe123;Trust_Connection=True"));
+            services.AddDbContext<ServiceContext>(options => options.UseSqlServer("Server=(local)\\SQLEXPRESS; Database = Zowarah;user id=sa;password=qwe123;Trust_Connection=True"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -7367,7 +7367,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amr.ehsan\\.nuget\\packages\\": {}
+    "C:\\Users\\mazen.mustafa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -7378,11 +7378,11 @@
       "projectUniqueName": "C:\\Projects\\Zowar\\Zowarah\\commLib\\commLib.csproj",
       "projectName": "commLib",
       "projectPath": "C:\\Projects\\Zowar\\Zowarah\\commLib\\commLib.csproj",
-      "packagesPath": "C:\\Users\\amr.ehsan\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\mazen.mustafa\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\Zowar\\Zowarah\\commLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amr.ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mazen.mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

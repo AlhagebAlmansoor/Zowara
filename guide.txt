@@ -1,0 +1,30 @@
+TEMP 8:30 - 9:30 
+Writting ANGULAR CODE 
+
+TEMP 10:30 - 11:30
+
+
+
+GOAL : WITHIN 3 DAYS TO BE READY WITH ANGULAR AND THIS LOGIC TO BE TESTED
+
+Reservation requires login
+
+
+Hotel Management System
+Hotels (HotelId,Name,Address,Rating)
+Rooms (RoomId,floor_no,price,reservation_id)
+RoomSections (section_id,room_id,description,pic)
+Reservations (id,room_id,date,days,amount)
+
+
+Service 
+FindRoom (from_price,to_price,from_date,to_date,no_sections)
+Reserve  (room_id,from_date,to_date)
+
+Service (Payment)
+accounts (id,balance)
+transactions (id,debit,credit,date,description)
+
+Service (Zowara)
+FindRoom (from_price,to_price,from_date,to_date,no_sections)
+Reserve  (room_id,from_date,to_date)
