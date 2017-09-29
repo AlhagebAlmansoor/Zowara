@@ -11,7 +11,7 @@ Reservation requires login
 
 
 Hotel Management System
-Hotels (HotelId,Name,Address,Rating)
+Hotels (HotelId,City,Name,Address,Rating)
 Rooms (RoomId,floor_no,price,reservation_id)
 RoomSections (section_id,room_id,description,pic)
 Reservations (id,room_id,date,days,amount)
@@ -39,3 +39,14 @@ Error Messages :
 var connectionString = configuration.GetConnectionString("DefaultConnection");
 
 https://www.codeproject.com/Tips/1074608/CRUD-in-ASP-NET-MVC-using-WebAPI-with-AngularJS
+
+-------------------------------
+
+TEMP : 8:30 - 9:30
+Web Hostng [done]
+Refrence Service to another service
+
+
+
+TEMP 3:30 - 4:30
+Working on AngularService

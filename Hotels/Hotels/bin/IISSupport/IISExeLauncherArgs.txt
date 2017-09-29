@@ -1,0 +1,10 @@
+-p C:\Program Files\dotnet\dotnet.exe
+-pidFile C:\projects\Zowara\Hotels\Hotels\bin\IISSupport\pidfile.txt
+-wd C:\projects\Zowara\Hotels\Hotels
+-a exec "C:\projects\Zowara\Hotels\Hotels\bin\Debug\netcoreapp1.1\Hotels.dll"
+-wbe Global\Build9420b0c7-ddb2-4a05-8b0b-c7641f48dba4
+-lse Global\Launch3dcede1d-e6ac-468d-b619-91716f85f54e
+-pipe cdd282f5-ade6-462a-b492-38b10d117074
+-pr Hotels
+-owningPid 7824
+-env ASPNETCORE_CONTENTROOT=C:\projects\Zowara\Hotels\Hotels|ASPNETCORE_ENVIRONMENT=Development|COMPLUS_ForceENC=1|

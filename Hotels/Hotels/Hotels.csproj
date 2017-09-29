@@ -31,10 +31,4 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="commLib">
-      <HintPath>..\..\commLib\bin\Debug\netcoreapp1.1\commLib.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

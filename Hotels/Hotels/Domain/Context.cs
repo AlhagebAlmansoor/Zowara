@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using commLib;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.ComponentModel.DataAnnotations;
@@ -10,7 +9,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Hotels.Models;
 namespace Hotels.Domain
 {
-    public class ServiceContext : ZowarahContext
+    public class ServiceContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

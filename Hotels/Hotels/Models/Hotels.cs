@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 
 namespace Hotels.Models
 {
-    public class Hotel : AuditableEntity<long>
+    public class Hotel
     {
-        public string HotelId { get; set; }
+        public long Id { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
+        public String ServiceUrl { get; set; }
     }
 }

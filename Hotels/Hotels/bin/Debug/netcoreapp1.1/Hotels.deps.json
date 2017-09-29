@@ -34,8 +34,7 @@
           "Microsoft.Extensions.Logging.Debug": "1.1.2",
           "Microsoft.NETCore.App": "1.1.2",
           "Microsoft.VisualStudio.Web.BrowserLink": "1.1.2",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "1.1.1",
-          "commLib": "1.0.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "1.1.1"
         },
         "runtime": {
           "Hotels.dll": {}
@@ -1785,14 +1784,6 @@
         },
         "compile": {
           "lib/netstandard1.0/System.Text.Encodings.Web.dll": {}
-        }
-      },
-      "commLib/1.0.0.0": {
-        "runtime": {
-          "commLib.dll": {}
-        },
-        "compile": {
-          "commLib.dll": {}
         }
       },
       "Libuv/1.9.1": {
@@ -4253,11 +4244,6 @@
       "sha512": "sha512-tcfPv+q/nK+5EsAxCLauIOd0kL+lZsXQ4lPKRnh8ex6O1Rm8WAN3LtF2GDFHyD0glSmUpIrgTnLhHCkMAKo3Ug==",
       "path": "system.text.encodings.web/4.3.1",
       "hashPath": "system.text.encodings.web.4.3.1.nupkg.sha512"
-    },
-    "commLib/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     },
     "Libuv/1.9.1": {
       "type": "package",
