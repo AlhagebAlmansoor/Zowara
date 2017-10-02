@@ -1,9 +1,0 @@
-D:\Programming\projects\Zowara\Hotels\FlightsWrite\bin\Debug\netcoreapp1.1\Flights.deps.json
-D:\Programming\projects\Zowara\Hotels\FlightsWrite\bin\Debug\netcoreapp1.1\Flights.runtimeconfig.json
-D:\Programming\projects\Zowara\Hotels\FlightsWrite\bin\Debug\netcoreapp1.1\Flights.runtimeconfig.dev.json
-D:\Programming\projects\Zowara\Hotels\FlightsWrite\bin\Debug\netcoreapp1.1\Flights.dll
-D:\Programming\projects\Zowara\Hotels\FlightsWrite\bin\Debug\netcoreapp1.1\Flights.pdb
-D:\Programming\projects\Zowara\Hotels\FlightsWrite\obj\Debug\netcoreapp1.1\Flights.csproj.CoreCompileInputs.cache
-D:\Programming\projects\Zowara\Hotels\FlightsWrite\obj\Debug\netcoreapp1.1\Flights.AssemblyInfo.cs
-D:\Programming\projects\Zowara\Hotels\FlightsWrite\obj\Debug\netcoreapp1.1\Flights.dll
-D:\Programming\projects\Zowara\Hotels\FlightsWrite\obj\Debug\netcoreapp1.1\Flights.pdb
