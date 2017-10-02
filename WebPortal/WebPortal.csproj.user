@@ -11,7 +11,10 @@
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
     <ActiveDebugProfile>WebPortal</ActiveDebugProfile>
+<<<<<<< HEAD
     <WebStackScaffolding_DbContextTypeFullName>WebPortal.Domain.ServiceContext</WebStackScaffolding_DbContextTypeFullName>
+=======
+>>>>>>> 56efa5c777b12d332b5f8548946af5f18e6b6c70
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

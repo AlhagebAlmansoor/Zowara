@@ -1,0 +1,10 @@
+D:\Programming\projects\Zowara\Hotels\Travel\bin\Debug\netcoreapp1.1\Travels.deps.json
+D:\Programming\projects\Zowara\Hotels\Travel\bin\Debug\netcoreapp1.1\Travels.runtimeconfig.json
+D:\Programming\projects\Zowara\Hotels\Travel\bin\Debug\netcoreapp1.1\Travels.runtimeconfig.dev.json
+D:\Programming\projects\Zowara\Hotels\Travel\bin\Debug\netcoreapp1.1\Travels.dll
+D:\Programming\projects\Zowara\Hotels\Travel\bin\Debug\netcoreapp1.1\Travels.pdb
+D:\Programming\projects\Zowara\Hotels\Travel\obj\Debug\netcoreapp1.1\Travels.csprojResolveAssemblyReference.cache
+D:\Programming\projects\Zowara\Hotels\Travel\obj\Debug\netcoreapp1.1\Travels.csproj.CoreCompileInputs.cache
+D:\Programming\projects\Zowara\Hotels\Travel\obj\Debug\netcoreapp1.1\Travels.AssemblyInfo.cs
+D:\Programming\projects\Zowara\Hotels\Travel\obj\Debug\netcoreapp1.1\Travels.dll
+D:\Programming\projects\Zowara\Hotels\Travel\obj\Debug\netcoreapp1.1\Travels.pdb

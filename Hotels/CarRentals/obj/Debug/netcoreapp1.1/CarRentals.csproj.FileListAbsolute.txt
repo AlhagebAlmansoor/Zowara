@@ -1,0 +1,10 @@
+D:\Programming\projects\Zowara\Hotels\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.deps.json
+D:\Programming\projects\Zowara\Hotels\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.runtimeconfig.json
+D:\Programming\projects\Zowara\Hotels\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.runtimeconfig.dev.json
+D:\Programming\projects\Zowara\Hotels\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.dll
+D:\Programming\projects\Zowara\Hotels\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.pdb
+D:\Programming\projects\Zowara\Hotels\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.csprojResolveAssemblyReference.cache
+D:\Programming\projects\Zowara\Hotels\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.csproj.CoreCompileInputs.cache
+D:\Programming\projects\Zowara\Hotels\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.AssemblyInfo.cs
+D:\Programming\projects\Zowara\Hotels\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.dll
+D:\Programming\projects\Zowara\Hotels\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.pdb

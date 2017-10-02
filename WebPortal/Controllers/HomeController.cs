@@ -13,6 +13,7 @@ namespace WebPortal.Controllers
             return View();
         }
 
+<<<<<<< HEAD
         public IActionResult Admins()
         {
             return View();
@@ -28,8 +29,11 @@ namespace WebPortal.Controllers
             return View();
         }
         public IActionResult Hotel()
+=======
+        public String Hotel()
+>>>>>>> 56efa5c777b12d332b5f8548946af5f18e6b6c70
         {
-            return View();
+            return "Hii World";
         }
 
         public IActionResult About()

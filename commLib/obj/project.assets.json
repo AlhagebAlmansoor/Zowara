@@ -7367,7 +7367,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mazen.mustafa\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -7375,14 +7375,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\projects\\Zowara\\commLib\\commLib.csproj",
+      "projectUniqueName": "D:\\Programming\\projects\\Zowara\\commLib\\commLib.csproj",
       "projectName": "commLib",
-      "projectPath": "C:\\projects\\Zowara\\commLib\\commLib.csproj",
-      "packagesPath": "C:\\Users\\mazen.mustafa\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\Zowara\\commLib\\obj\\",
+      "projectPath": "D:\\Programming\\projects\\Zowara\\commLib\\commLib.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\projects\\Zowara\\commLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mazen.mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7390,18 +7390,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {

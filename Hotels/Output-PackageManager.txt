@@ -1,0 +1,21 @@
+﻿Restoring packages for D:\Programming\projects\Zowara\WebPortal\WebPortal.csproj...
+Installing NuGet package Microsoft.AspNetCore.Server.IISIntegration 1.1.3.
+Committing restore...
+Writing lock file to disk. Path: D:\Programming\projects\Zowara\WebPortal\obj\project.assets.json
+Restore completed in 10.34 sec for D:\Programming\projects\Zowara\WebPortal\WebPortal.csproj.
+Successfully uninstalled 'Microsoft.AspNetCore.Hosting.Abstractions 1.1.2' from WebPortal
+Successfully uninstalled 'Microsoft.AspNetCore.Hosting.Server.Abstractions 1.1.2' from WebPortal
+Successfully uninstalled 'Microsoft.AspNetCore.HttpOverrides 1.1.2' from WebPortal
+Successfully uninstalled 'Microsoft.AspNetCore.Server.IISIntegration 1.1.2' from WebPortal
+Successfully installed 'Microsoft.AspNetCore.Hosting.Abstractions 1.1.3' to WebPortal
+Successfully installed 'Microsoft.AspNetCore.Hosting.Server.Abstractions 1.1.3' to WebPortal
+Successfully installed 'Microsoft.AspNetCore.HttpOverrides 1.1.3' to WebPortal
+Successfully installed 'Microsoft.AspNetCore.Server.IISIntegration 1.1.3' to WebPortal
+Executing nuget actions took 8.51 sec
+Time Elapsed: 00:00:19.3096004
+========== Finished ==========
+
+Restoring NuGet packages...
+Time Elapsed: 00:00:03.8782068
+========== Finished ==========
+
