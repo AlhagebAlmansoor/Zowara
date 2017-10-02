@@ -5,9 +5,6 @@
       "AngularJS.Core/1.6.5": {
         "type": "package"
       },
-      "jQuery/3.2.1": {
-        "type": "package"
-      },
       "Libuv/1.9.1": {
         "type": "package",
         "dependencies": {
@@ -4160,26 +4157,6 @@
         "content/Scripts/angular.js",
         "content/Scripts/angular.min.js",
         "content/Scripts/angular.min.js.map"
-      ]
-    },
-    "jQuery/3.2.1": {
-      "sha512": "Sc4jRcsItNXUoNmnPtD9DEnHCy5d4u0GOdDSKYL+b7PKtwajKO1YBJA55241G2M9KRCwSbtxV4ti3gb4n/pIew==",
-      "type": "package",
-      "path": "jquery/3.2.1",
-      "files": [
-        "Content/Scripts/jquery-3.2.1-vsdoc.js",
-        "Content/Scripts/jquery-3.2.1.js",
-        "Content/Scripts/jquery-3.2.1.min.js",
-        "Content/Scripts/jquery-3.2.1.min.map",
-        "Content/Scripts/jquery-3.2.1.slim.js",
-        "Content/Scripts/jquery-3.2.1.slim.min.js",
-        "Content/Scripts/jquery-3.2.1.slim.min.map",
-        "Tools/common.ps1",
-        "Tools/install.ps1",
-        "Tools/jquery-3.2.1.intellisense.js",
-        "Tools/uninstall.ps1",
-        "jquery.3.2.1.nupkg.sha512",
-        "jquery.nuspec"
       ]
     },
     "Libuv/1.9.1": {
@@ -10785,12 +10762,11 @@
       "Microsoft.Extensions.Logging.Debug >= 1.1.2",
       "Microsoft.NETCore.App >= 1.1.2",
       "Microsoft.VisualStudio.Web.BrowserLink >= 1.1.2",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 1.1.1",
-      "jQuery >= 3.2.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 1.1.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mazen.mustafa\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -10798,14 +10774,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\projects\\Zowara\\WebPortal\\WebPortal.csproj",
+      "projectUniqueName": "D:\\Programming\\projects\\Zowara\\WebPortal\\WebPortal.csproj",
       "projectName": "WebPortal",
-      "projectPath": "C:\\projects\\Zowara\\WebPortal\\WebPortal.csproj",
-      "packagesPath": "C:\\Users\\mazen.mustafa\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\Zowara\\WebPortal\\obj\\",
+      "projectPath": "D:\\Programming\\projects\\Zowara\\WebPortal\\WebPortal.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\projects\\Zowara\\WebPortal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mazen.mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10813,18 +10789,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
@@ -10837,10 +10807,6 @@
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "1.1.2"
-          },
-          "jQuery": {
-            "target": "Package",
-            "version": "3.2.1"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
@@ -10897,13 +10863,5 @@
         ]
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\projects\\Zowara\\WebPortal\\obj\\WebPortal.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
