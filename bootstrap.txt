@@ -1,0 +1,57 @@
+container
+page-header
+jumbotorn
+btn btn-default btn-lg btn-danger
+btn-group
+col-lg col-md col-sm col-xs
+collapse in 
+well hidden-md hidden-lg
+col-md-offset-6
+table table-bordere table striped table-hover
+carousel
+slide
+data-ride=carousel
+carousel-indicators
+active
+active
+data-slide-to="0"
+carousel-caption
+carousel-control
+glyphicon
+glyphicon-chevron-left
+carousel-control
+input-group
+input-group-btn
+btn-default
+dropdown-toggle
+data-toggle="dropdown"
+aria-haspopup="true"
+aria-expanded="false"
+caret
+dropdown-menu -> ul
+list-inline
+dropdown-toggle
+<a class="dropdown-toggle" data-toggle="dropdown"> Contact<span class=caret"</span.
+<ul class="dropdown-menu">
+	<li><a href="#">Phone</a></li>
+</ul>
+nave nav-pills nave-stacked
+data-toggle="dropdown"
+data-toggle="tab"
+tab-content
+tab-pane
+fade
+in active
+container-fluid
+nvabar-fixed-top
+navbar-fixed-bottom
+pull-left
+pagination 
+
+
+PAGE DIVISION
+NAVIGATION
+DROPDOWN 
+SLIDING 
+PAGINATION
+THUMBNAIL

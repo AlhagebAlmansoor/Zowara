@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebPortal.Models
 {
-    public class Hotel : AuditableEntity<long>
+    public class Hotel
     {
 
         public long Id { get; set; }

@@ -6,10 +6,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\BusTravelController.cs" />
+    <Compile Remove="Controllers\CarRentalController.cs" />
+    <Compile Remove="Controllers\FlightsController.cs" />
+    <Compile Remove="Repository\IRepository.cs" />
+    <Compile Remove="Repository\Repository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AngularJS.Core" Version="1.6.5" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
@@ -25,8 +34,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Data\" />
+    <Folder Include="Domain\Business Modules\Car Rental\" />
+    <Folder Include="Domain\Business Modules\Flights\" />
+    <Folder Include="Domain\Business Modules\Hotel\" />
+    <Folder Include="Domain\Business Modules\Travel\" />
+    <Folder Include="Domain\Administration\" />
+    <Folder Include="Domain\Administration\Users\" />
+    <Folder Include="Domain\Administration\Providers\" />
+    <Folder Include="Domain\Administration\Zowara\" />
+    <Folder Include="Domain\Shared Services\Payments\" />
+    <Folder Include="Domain\Shared Services\" />
+    <Folder Include="Repository\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />

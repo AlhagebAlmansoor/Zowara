@@ -13,9 +13,9 @@ namespace WebPortal.Controllers
             return View();
         }
 
-        public IActionResult Hotel()
+        public String Hotel()
         {
-            return View();
+            return "Hii World";
         }
 
         public IActionResult About()

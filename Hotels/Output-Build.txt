@@ -1,0 +1,5 @@
+﻿Restoring NuGet packages...
+To prevent NuGet from restoring packages during build, open the Visual Studio Options dialog, click on the Package Manager node and uncheck 'Allow NuGet to download missing packages during build.'
+1>------ Build started: Project: WebPortal, Configuration: Debug Any CPU ------
+1>WebPortal -> D:\Programming\projects\Zowara\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.dll
+========== Build: 1 succeeded, 0 failed, 3 up-to-date, 0 skipped ==========

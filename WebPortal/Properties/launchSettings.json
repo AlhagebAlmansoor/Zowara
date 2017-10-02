@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/WebPortal",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:59994/",
       "sslPort": 0
@@ -9,15 +13,15 @@
   },
   "profiles": {
     "IIS Express": {
-      "commandName": "IISExpress",
+      "commandName": "IIS",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "WebPortal": {
-      "commandName": "Project",
-      "launchBrowser": true,
+      "commandName": "IIS",
+      "workingDirectory": "D:\\Programming\\projects\\Zowara\\WebPortal",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

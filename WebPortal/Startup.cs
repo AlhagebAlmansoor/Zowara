@@ -31,8 +31,8 @@ namespace WebPortal
         {
             // Add framework services.
             services.AddMvc();
-            Console.WriteLine("HELLO WORLD !");
-            services.AddDbContext<ServiceContext>(options => options.UseSqlServer("Server=(local)\\SQLEXPRESS; Database = Zowara;user id=sa;password=Saadmin90"));
+           // Console.WriteLine("HELLO WORLD !");
+            //services.AddDbContext<ServiceContext>(options => options.UseSqlServer("Server=(local)\\SQLEXPRESS; Database = Zowara;user id=sa;password=Saadmin90"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

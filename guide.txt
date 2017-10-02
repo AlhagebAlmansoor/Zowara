@@ -4,22 +4,131 @@ Writting ANGULAR CODE
 TEMP 10:30 - 11:30
 
 
-
-GOAL : WITHIN 3 DAYS TO BE READY WITH ANGULAR AND THIS LOGIC TO BE TESTED
-
-Reservation requires login
+MAIN CONCEPTS :
+IOC , Dependency injection 
 
 
-Hotel Management System
-Hotels (HotelId,City,Name,Address,Rating)
+Main Keywords :
+View.Data
+
+
+
+AngularJs :
+
+
+
+
+BUSINESS CONCERN :
+To Direct their Traffic to the Customers 
+
+Business Vision :
+Enable Customers To Get the Best Services in (Travel,Accomodation,Food)
+Make it easy to pay [Having an option for easy payment and Exchange Amounts)
+
+Services
+E-Payment 
+
+[Hotel Management System]
+Entities :
+
+Service Providers (Hotels, Car Rentals, Travel, Resturants)
+Customers
+
+Services 
+Services Features 
+
+Reservations - Transactions
+Payments
+Advertisements
+
+
+Advanced Features :
+Maps
+Comparsion 
+
+Tools :
+Maps
+Progress Bar
+Jquery Search
+
+
+Tables :
+Providers (Id,LoginId,Password,Name,Country,City,Address,Email,Phone1,Phone2,Mobile1,Mobile2,SignupDate,isActive,isEmailConfirmed)
+Customers (Id,LoginId,Password,FirstName,LastName,Country,Phone,Mobile,RegisterDate,isActive,isEmailConfirmed)
+Admins (Id,LoginId,Password,FirstName,LastName,Phone,Mobile,Privilages)
+
+Services (Id,Description)
+
+ContactTypes (Id,Description)
+Hotels (Id,Name,Rating,Location,NoOfRooms,CheckinFrom,CheckinTo,CheckoutFrom,CheckoutTo,InternetOptionId,ParkingOptionId,ParkingTypeId,ParkingSiteId,ParkingRervationId,BreakFast,IsPets,GraceCancellaionDays,CancellationRateId)
+HotelContacts (Id,HotelId,ContactType,Description)
+HotelInternetOptions (Id,Description) [No,Yes Free,Yes Paid]
+HotelParkingOptions  (Id,Description) [No,Yes Free,Yes Paid]
+HotelSmokingOptions (Id,Description)  [No,Yes,Special]
+HotelsParkingTypes (Id,Description) [ Private,Public ]
+HotelParkingSites (Id,Description) [ OnSite,OffSite ]
+HotelParkingReservation (Id,Description) [ Needed, Not Needed ]
+HotelBreakFastTypes (Id,Description)
+HotelFacilitiesTypes (Id,Description)
+HotelRoomTypes (Id,Description)
+HotelRoomTypeNames (Id,HotelRoomTypeId,Description)
+HotelBedOptions (Id,Description,NoOfPersons)
+HotelRoomAmenities (Id,Description)
+HotelCancellationRates(Id,Description)
+Languages (Id,Description)
+
+
+
+HotelBreakFastOptions (Id,HotelId,BreakFastTypeId)
+HotelFacilities (Id,HotelId,FacilitiyTypeId)
+HotelRooms(Id,HotelId,HotelRoomTypeId,Smoking,NoOfLivingRooms,IsKitchen,NoOfPathrooms,NoOfPersons,RatePerNight)
+HotelRoomBedOptions(Id,HotelRoomTypeId,HotelBedOptionId,NoOfBeds)
+HotelRerservations (Id,UserId,HotelRoomTypeId,ReservationDate,FromDate,ToDate,Rate,PaymentId)
+HotelCancellations (Id,ReservationId,CancellationDate)
+HotelPaymenOptions (Id,HotelId,HotelPaymentId)
+HotelPhotos (Id,HotelId,Description,Image)
+
+
+PaymentOptions (Id,Description)
+Payments (Id,UserId,ServiceTypeId,TransactionId,Amount,Date,PaymentTypeId,IsSuccess)
+Refunds  (Id,PaymentId,TransactionId,Amount,Date)
+
+
+Tasks:
+Designing Main Database
+Designing Main WebPages Skilton 
+Writting the basic ANGULARGS code for retrieving hotels 
+ReReading MVC book 
+
+
+Pages :
+Main Portal 
+Configuration
+
+TEMP : 05:00 - 6:00
+designing database 
+
+TEMP : 7:30 - 08:30
+Designing the main pages
+
+
+Hotels (HotelId,Name,Address,Rating)
 Rooms (RoomId,floor_no,price,reservation_id)
 RoomSections (section_id,room_id,description,pic)
 Reservations (id,room_id,date,days,amount)
 
+Why The Customer Should Stick to this App? 
+Services 
 
-Service 
-FindRoom (from_price,to_price,from_date,to_date,no_sections)
-Reserve  (room_id,from_date,to_date)
+PAGES :
+Customer Page 
+
+
+
+Programming Applets :
+AngularJs
+Search 
+Maps
 
 Service (Payment)
 accounts (id,balance)
@@ -40,13 +149,29 @@ var connectionString = configuration.GetConnectionString("DefaultConnection");
 
 https://www.codeproject.com/Tips/1074608/CRUD-in-ASP-NET-MVC-using-WebAPI-with-AngularJS
 
--------------------------------
 
-TEMP : 8:30 - 9:30
-Web Hostng [done]
-Refrence Service to another service
-
+how to create a connection and CRUD - DONE
+Creating a webapi and hosting it
+working with angularjs 
 
 
-TEMP 3:30 - 4:30
-Working on AngularService
+
+Keywords :
+Services.addMvc()
+App.useMvc()
+Property navigation
+[FROM ROUTE]
+JSON method
+Postman download
+
+
+
+ANGULARJS :
+Model : Fieldsa
+Controller : functions
+
+Cloud computing 
+
+
+TEMP : 3:12 - 4 :30
+Designing HomePage
