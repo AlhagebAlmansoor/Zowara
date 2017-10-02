@@ -1,0 +1,10 @@
+C:\projects\Zowara\Services\Refunds\bin\Debug\netcoreapp1.1\Refunds.deps.json
+C:\projects\Zowara\Services\Refunds\bin\Debug\netcoreapp1.1\Refunds.runtimeconfig.json
+C:\projects\Zowara\Services\Refunds\bin\Debug\netcoreapp1.1\Refunds.runtimeconfig.dev.json
+C:\projects\Zowara\Services\Refunds\bin\Debug\netcoreapp1.1\Refunds.dll
+C:\projects\Zowara\Services\Refunds\bin\Debug\netcoreapp1.1\Refunds.pdb
+C:\projects\Zowara\Services\Refunds\obj\Debug\netcoreapp1.1\Refunds.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\Services\Refunds\obj\Debug\netcoreapp1.1\Refunds.AssemblyInfoInputs.cache
+C:\projects\Zowara\Services\Refunds\obj\Debug\netcoreapp1.1\Refunds.AssemblyInfo.cs
+C:\projects\Zowara\Services\Refunds\obj\Debug\netcoreapp1.1\Refunds.dll
+C:\projects\Zowara\Services\Refunds\obj\Debug\netcoreapp1.1\Refunds.pdb

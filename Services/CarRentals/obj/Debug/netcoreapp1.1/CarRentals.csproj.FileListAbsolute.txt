@@ -1,0 +1,10 @@
+C:\projects\Zowara\Services\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.deps.json
+C:\projects\Zowara\Services\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.runtimeconfig.json
+C:\projects\Zowara\Services\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.runtimeconfig.dev.json
+C:\projects\Zowara\Services\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.dll
+C:\projects\Zowara\Services\CarRentals\bin\Debug\netcoreapp1.1\CarRentals.pdb
+C:\projects\Zowara\Services\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\Services\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.AssemblyInfoInputs.cache
+C:\projects\Zowara\Services\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.AssemblyInfo.cs
+C:\projects\Zowara\Services\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.dll
+C:\projects\Zowara\Services\CarRentals\obj\Debug\netcoreapp1.1\CarRentals.pdb

@@ -1,0 +1,11 @@
+C:\projects\Zowara\Services\Providers\bin\Debug\netcoreapp1.1\Providers.deps.json
+C:\projects\Zowara\Services\Providers\bin\Debug\netcoreapp1.1\Providers.runtimeconfig.json
+C:\projects\Zowara\Services\Providers\bin\Debug\netcoreapp1.1\Providers.runtimeconfig.dev.json
+C:\projects\Zowara\Services\Providers\bin\Debug\netcoreapp1.1\Providers.dll
+C:\projects\Zowara\Services\Providers\bin\Debug\netcoreapp1.1\Providers.pdb
+C:\projects\Zowara\Services\Providers\obj\Debug\netcoreapp1.1\Providers.csprojResolveAssemblyReference.cache
+C:\projects\Zowara\Services\Providers\obj\Debug\netcoreapp1.1\Providers.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\Services\Providers\obj\Debug\netcoreapp1.1\Providers.AssemblyInfoInputs.cache
+C:\projects\Zowara\Services\Providers\obj\Debug\netcoreapp1.1\Providers.AssemblyInfo.cs
+C:\projects\Zowara\Services\Providers\obj\Debug\netcoreapp1.1\Providers.dll
+C:\projects\Zowara\Services\Providers\obj\Debug\netcoreapp1.1\Providers.pdb

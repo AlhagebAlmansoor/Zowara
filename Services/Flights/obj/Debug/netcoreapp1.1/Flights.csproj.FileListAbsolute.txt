@@ -1,0 +1,10 @@
+C:\projects\Zowara\Services\Flights\bin\Debug\netcoreapp1.1\Flights.deps.json
+C:\projects\Zowara\Services\Flights\bin\Debug\netcoreapp1.1\Flights.runtimeconfig.json
+C:\projects\Zowara\Services\Flights\bin\Debug\netcoreapp1.1\Flights.runtimeconfig.dev.json
+C:\projects\Zowara\Services\Flights\bin\Debug\netcoreapp1.1\Flights.dll
+C:\projects\Zowara\Services\Flights\bin\Debug\netcoreapp1.1\Flights.pdb
+C:\projects\Zowara\Services\Flights\obj\Debug\netcoreapp1.1\Flights.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\Services\Flights\obj\Debug\netcoreapp1.1\Flights.AssemblyInfoInputs.cache
+C:\projects\Zowara\Services\Flights\obj\Debug\netcoreapp1.1\Flights.AssemblyInfo.cs
+C:\projects\Zowara\Services\Flights\obj\Debug\netcoreapp1.1\Flights.dll
+C:\projects\Zowara\Services\Flights\obj\Debug\netcoreapp1.1\Flights.pdb

@@ -27,8 +27,8 @@ namespace WebPortal.Domain
     /// 
     public class ServiceContext : DbContext, IContext
 {
-        public ServiceContext (DbContextOptions<ServiceContext> options)
-            : base(options)
+        public ServiceContext ()
+            : base()
         { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

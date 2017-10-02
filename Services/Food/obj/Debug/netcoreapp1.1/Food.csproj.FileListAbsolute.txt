@@ -1,0 +1,11 @@
+C:\projects\Zowara\Services\Food\bin\Debug\netcoreapp1.1\Food.deps.json
+C:\projects\Zowara\Services\Food\bin\Debug\netcoreapp1.1\Food.runtimeconfig.json
+C:\projects\Zowara\Services\Food\bin\Debug\netcoreapp1.1\Food.runtimeconfig.dev.json
+C:\projects\Zowara\Services\Food\bin\Debug\netcoreapp1.1\Food.dll
+C:\projects\Zowara\Services\Food\bin\Debug\netcoreapp1.1\Food.pdb
+C:\projects\Zowara\Services\Food\obj\Debug\netcoreapp1.1\Food.csprojResolveAssemblyReference.cache
+C:\projects\Zowara\Services\Food\obj\Debug\netcoreapp1.1\Food.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\Services\Food\obj\Debug\netcoreapp1.1\Food.AssemblyInfoInputs.cache
+C:\projects\Zowara\Services\Food\obj\Debug\netcoreapp1.1\Food.AssemblyInfo.cs
+C:\projects\Zowara\Services\Food\obj\Debug\netcoreapp1.1\Food.dll
+C:\projects\Zowara\Services\Food\obj\Debug\netcoreapp1.1\Food.pdb

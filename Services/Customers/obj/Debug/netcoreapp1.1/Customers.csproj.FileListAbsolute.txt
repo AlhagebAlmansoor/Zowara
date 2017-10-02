@@ -1,0 +1,11 @@
+C:\projects\Zowara\Services\Customers\bin\Debug\netcoreapp1.1\Customers.deps.json
+C:\projects\Zowara\Services\Customers\bin\Debug\netcoreapp1.1\Customers.runtimeconfig.json
+C:\projects\Zowara\Services\Customers\bin\Debug\netcoreapp1.1\Customers.runtimeconfig.dev.json
+C:\projects\Zowara\Services\Customers\bin\Debug\netcoreapp1.1\Customers.dll
+C:\projects\Zowara\Services\Customers\bin\Debug\netcoreapp1.1\Customers.pdb
+C:\projects\Zowara\Services\Customers\obj\Debug\netcoreapp1.1\Customers.csprojResolveAssemblyReference.cache
+C:\projects\Zowara\Services\Customers\obj\Debug\netcoreapp1.1\Customers.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\Services\Customers\obj\Debug\netcoreapp1.1\Customers.AssemblyInfoInputs.cache
+C:\projects\Zowara\Services\Customers\obj\Debug\netcoreapp1.1\Customers.AssemblyInfo.cs
+C:\projects\Zowara\Services\Customers\obj\Debug\netcoreapp1.1\Customers.dll
+C:\projects\Zowara\Services\Customers\obj\Debug\netcoreapp1.1\Customers.pdb

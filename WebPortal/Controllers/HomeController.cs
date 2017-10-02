@@ -13,6 +13,20 @@ namespace WebPortal.Controllers
             return View();
         }
 
+        public IActionResult Admins()
+        {
+            return View();
+        }
+
+        public IActionResult Providers()
+        {
+            return View();
+        }
+
+        public IActionResult Customers()
+        {
+            return View();
+        }
         public IActionResult Hotel()
         {
             return View();

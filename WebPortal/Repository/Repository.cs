@@ -8,7 +8,7 @@ namespace WebPortal.Repository
 {
     public class HotelRepository: IHotelRepository
     {
-        ServiceContext context = new ServiceContext(null);
+        ServiceContext context = new ServiceContext();
 
         public IEnumerable<Hotel> GetAll()
         {
@@ -46,7 +46,6 @@ namespace WebPortal.Repository
             var hotel = context.Hotels.Single(a => a.Id == item.Id);
             hotel.Id = item.Id;
             hotel.Name = item.Name;
-            hotel.Address = item.Address;
             context.SaveChanges();
 
             return true;

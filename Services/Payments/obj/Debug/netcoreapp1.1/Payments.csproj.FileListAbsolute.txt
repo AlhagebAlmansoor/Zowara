@@ -1,0 +1,10 @@
+C:\projects\Zowara\Services\Payments\bin\Debug\netcoreapp1.1\Payments.deps.json
+C:\projects\Zowara\Services\Payments\bin\Debug\netcoreapp1.1\Payments.runtimeconfig.json
+C:\projects\Zowara\Services\Payments\bin\Debug\netcoreapp1.1\Payments.runtimeconfig.dev.json
+C:\projects\Zowara\Services\Payments\bin\Debug\netcoreapp1.1\Payments.dll
+C:\projects\Zowara\Services\Payments\bin\Debug\netcoreapp1.1\Payments.pdb
+C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.AssemblyInfoInputs.cache
+C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.AssemblyInfo.cs
+C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.dll
+C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.pdb

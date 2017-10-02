@@ -1,0 +1,11 @@
+C:\projects\Zowara\Services\Admins\bin\Debug\netcoreapp1.1\Admins.deps.json
+C:\projects\Zowara\Services\Admins\bin\Debug\netcoreapp1.1\Admins.runtimeconfig.json
+C:\projects\Zowara\Services\Admins\bin\Debug\netcoreapp1.1\Admins.runtimeconfig.dev.json
+C:\projects\Zowara\Services\Admins\bin\Debug\netcoreapp1.1\Admins.dll
+C:\projects\Zowara\Services\Admins\bin\Debug\netcoreapp1.1\Admins.pdb
+C:\projects\Zowara\Services\Admins\obj\Debug\netcoreapp1.1\Admins.csprojResolveAssemblyReference.cache
+C:\projects\Zowara\Services\Admins\obj\Debug\netcoreapp1.1\Admins.csproj.CoreCompileInputs.cache
+C:\projects\Zowara\Services\Admins\obj\Debug\netcoreapp1.1\Admins.AssemblyInfoInputs.cache
+C:\projects\Zowara\Services\Admins\obj\Debug\netcoreapp1.1\Admins.AssemblyInfo.cs
+C:\projects\Zowara\Services\Admins\obj\Debug\netcoreapp1.1\Admins.dll
+C:\projects\Zowara\Services\Admins\obj\Debug\netcoreapp1.1\Admins.pdb
