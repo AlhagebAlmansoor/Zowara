@@ -8,3 +8,4 @@ C:\projects\Zowara\Services\Travel\obj\Debug\netcoreapp1.1\Travel.AssemblyInfoIn
 C:\projects\Zowara\Services\Travel\obj\Debug\netcoreapp1.1\Travel.AssemblyInfo.cs
 C:\projects\Zowara\Services\Travel\obj\Debug\netcoreapp1.1\Travel.dll
 C:\projects\Zowara\Services\Travel\obj\Debug\netcoreapp1.1\Travel.pdb
+C:\projects\Zowara\Services\Travel\obj\Debug\netcoreapp1.1\Travel.csprojResolveAssemblyReference.cache

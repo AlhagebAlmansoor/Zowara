@@ -134,7 +134,6 @@ namespace WebPortal.Domain
     //    }
 
 }
-
     }
 
         // Entities

@@ -21,11 +21,8 @@
     },
     "WebPortal": {
       "commandName": "IIS",
-<<<<<<< HEAD
       "launchBrowser": true,
-=======
       "workingDirectory": "D:\\Programming\\projects\\Zowara\\WebPortal",
->>>>>>> 56efa5c777b12d332b5f8548946af5f18e6b6c70
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

@@ -1,62 +1,49 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    .search-panel {
+        height:300px;
+    }
+</style>
 <script src="~/Scripts/Angular.js"></script>
-
-
-<div ng-controller="myCntrl" ng-app="myApp">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <h1> Hotel Details Page</h1>
-
-    <br />
-
-    <input type="button" class="btnAdd" value=" Add Hotel" ng-click="AddHotelDiv()" />
-
-    <div class="divList">
-        <p class="divHead">Hotel List</p>
-        <table cellpadding="12" class="table table-bordered table-hover">
-            <tr>
-                <td><b>ID</b></td>
-                <td><b>Name</b></td>
-            </tr>
-            <tr ng-repeat="Hotel in Hotels">
-                <td>
-                    {{Hotel.Id}}
-                </td>
-                <td>
-                    {{Hotel.Name}}
-                </td>
-                <td>
-                    <span ng-click="editHotel(Hotel)" class="btnAdd">Edit</span>
-                    <span ng-click="deleteHotel(Hotel)" class="btnRed">Delete</span>
-                </td>
-            </tr>
-        </table>
+<div class="row table-bordered">
+    <div class="col-md-6">
+        <div class="panel panel-primary search-panel">
+            <div class="panel-heading">
+                Search
+            </div>
+            <div class="panel-body">
+                    <form class="row">
+                            <div class="col-md-12">
+                                <label class="col-md-2 control-label">Location</label>
+                                <input type="text" id="" class="form-control input-sm" />
+                            </div>
+                            <div class="col-md-4">
+                                <label class="col-md-2 control-label">From</label>
+                                <input type="text"  class="form-control input-sm" />
+                            </div>
+                          
+                    </form>
+            </div>
+        </div>
     </div>
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Advertisement 1
+            </div>
+            <div class="panel-body">
 
-    <div ng-show="divHotel">
-        <p class="divHead">{{Action}} Hotel</p>
-        <table>
-            <tr>
-                <td><b>Id</b></td>
-                <td>
-                    <input type="text" disabled="disabled" ng-model="HotelId" />
-                </td>
-            </tr>
-            <tr>
-                <td><b>Name</b></td>
-                <td>
-                    <input type="text" ng-model="HotelName" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="button" class="btnAdd" value="Save" ng-click="AddUpdateHotel()" />
-                </td>
-            </tr>
-        </table>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Advertisement 1
+            </div>
+            <div class="panel-body">
+
+            </div>
+        </div>
     </div>
 </div>

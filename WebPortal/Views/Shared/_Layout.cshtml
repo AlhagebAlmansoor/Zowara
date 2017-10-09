@@ -20,40 +20,19 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
 
     </environment>
-<<<<<<< HEAD
-    
-
-=======
-
     <style>
 
-        .jumbotron
-        {   border-radius:0;
+        .body-content {
+            padding:0;
         }
-
-        .jumbotron #content{
-            margin-top:-50px;
-            margin-left:2px;
-        }
-
-        #footer {
-            margin-bottom: -20px    ;
-            height: 400px;
+ 
+        .footer {
+            margin-bottom: -20px;
+            height: 300px;
             background-color: #030352;
-            width:100%;
+            width:99%;
         }
 
-        #header {
-            margin-top: -50px;
-            margin-bottom: 0;
-            height: 100px;
-            background-color: #030352;
-        }
-
-        #header #content
-        {
-            color:white;
-        }
         .nav, .navbar-header, .navbar-default, .navbar {
             color:#fff;
         }
@@ -65,289 +44,119 @@
 
         .nav , .navbar-nav , .navbar-left li a {
             color: #ffffff;
+            border-radius:0px;
         }
         .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
             color: white; /*Sets the text hover color on navbar*/
         }
 
         
-        #pnl-ads .panel-body{
-            height:130px;
-        }
-
-        #panel-service-search .panel-body {
+         #panel-service-search .panel-body {
             height: 345px;
         }
-     
-     
+
+        
+        .body-content {
+            min-height:280px;
+        }
+        .page-header 
+        {
+            margin-top:-50px;
+            width:80%;
+        }
+
+        #main-header {
+            height:100px;
+            background-color: #030352;
+        }
+
+        .white {
+            color:white;
+        }
+
+        .header 
+        {
+            margin-top:-50px;
+            width:99%;
+
+        }
+        .header-caption {
+            background-color: #030352;
+            height:150px;
+        }
+
     </style>
->>>>>>> 56efa5c777b12d332b5f8548946af5f18e6b6c70
+
     @Html.Raw(JavaScriptSnippet.FullScript)
 
-    <style>
-        .page-header {
-            margin-top: -50px;
-        }
-        #main-header{
-            background-color:#101090;
-            color:#fff;
-            margin-top:-50px;
-            height:120px;
-        }
-
-        .nav  li {
-            width:120px;
-        }
-
-            
-            #footer {
-                height: 300px;
-                background-color: #101090;
-                margin-bottom: -50px;
-            }
-
-
-        .panel-search .panel-body{
-            height:350px;
-        }
-        .panel-promo .panel-body {
-            height: 150px;
-        }
-
-        .panel-promo .panel-body img {
-            height: 100%;
-            width:100%;
-        }
-        .white{
-            color:#fff;
-        }
-        .glyphicon {
-            font-size: 30px;
-            text-align:center;
-        }
-
-    </style>
 </head>
 <body>
-<<<<<<< HEAD
-    <div class="page-header">
-        <div class="row"  id="main-header">
-            <div class="col-md-4">
+    <div class="container header ">
+        <div class="row white header-caption" >
+            <div class="col-md-12">
                 <h1>Zowara</h1>
             </div>
-            <div class="col-md-8">
-                <div class="navbar-form pull-right">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </div>
-            </div>
         </div>
- 
         <div class="row">
-
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
-                    <ul class="nav navbar-nav icon-bar  text-center" >
-                        <li class="active"><i class="glyphicon glyphicon-home white " aria-hidden="true"></i><a href="#">Hotels</a></span></li>
-                        <li><i class="glyphicon glyphicon-plane white" aria-hidden="true"></i><a href="#">Flights</a></li>
-                        <li><i class="glyphicon glyphicon-transfer white" aria-hidden="true"></i><a href="#">Car Rental</a></li>
-                        <li><i class="glyphicon glyphicon-globe white" aria-hidden="true"></i><a href="#">Travel</a></li>
-                        <li><i class="glyphicon glyphicon-grain white " aria-hidden="true"></i><a href="#">Food</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    </ul>
-                </div>
-            </nav> 
-        </div>
-                </div>
-
-    <div class="container body-content">
-       @RenderBody()
-            </div>
-
-    <hr />
-    <div class="jumbotron" id="footer">
-        <div class="contrainer white">
-            <div class="row">
-                <div class="col-md-4">
-                    <ul>
-                        <li>Item 1 Description Item 1 Description </li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4">
-                    <ul>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                        <li>Item 1 Description</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <br /><br /><br />
-        <div class="container text-center white">
-            <h4>All Rights Reserved</h4>
-        </div>
-    </div>
-=======
-    <div class="jumbotron"  id="header">
-
-            <div class="container" id="content">
-                <h3>Zowara</h3>
-                <h5>The Leading Visitors Services Provider </h5>
-            </div>
-
-        <div class="right">
-            <div class="input-group right">
-                <input type="text" class="form-control right" placeholder="Search">
-                <div class="input-group-btn">
-                    <button class="btn btn-default" type="submit">
-                        <i class="glyphicon glyphicon-search"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-    </div>
-   
-    <nav class="navbar" id="main-nav-bar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Logo</a>
-            </div>
-            <div class="collapse navbar-collapse" id="main-nav-bar-btns">
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Deals</a></li>
-                    <li><a href="#">Stores</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-   
-    <div class="container body-content">
-        <div class="container"  id="first-row">
-            <div class="row" >
-                <div class="col-sm-6">
-                    <div class="panel panel-primary" id="panel-service-search">
-                        <div class="panel-heading">Search For A Hotel</div>
-                        <div class="panel-body">
-                            <form class="form-horizontal">
-                            <div class="form-group form-inline">
-                                <label class="col-md-2 control-label">Location</label>
-                                <input  type="text" class="form-control" />
-                             </div>
-                             <div class="form-group form-inline">
-                                    <label class="control-label">From</label>
-                                    <input type="text" class="form-control " />
-                                 <label class="control-label">To</label>
-                                 <input type="text" class="form-control" />
-                                </div>
-       
-                                    
-                                <div class="col-md-4">
-                                    <label class="control-label">No. Of Rooms</label>
-                                    <select>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                        <option>6</option>
-                                    </select>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label class="control-label">No. Of Adults</label>
-                                        <select>
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                            <option>6</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label class="control-label">Children</label>
-                                        <select>
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                            <option>6</option>
-                                        </select>
-                                    </div>
-                                 
-</form>
-
-                        </div>
-                        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Zowara</a>
                     </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Car Rental</a></li>
+                        <li><a href="#">Food</a></li>
+                    </ul>
                 </div>
-                <div class="col-sm-6">
-                    <div class="panel-group panel" id="pnl-ads">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">BLACK FRIDAY DEAL</div>
-                            <div class="panel-body"><img src="~/images/img1.png" />
-                                <img src="~/images/img1.png" /></div>
-                            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-                        </div>
-
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">BLACK FRIDAY DEAL</div>
-                            <div class="panel-body"><img src="scenery2.jpg" style="width:100%" alt="Image"></div>
-                            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-                        </div>
-                        </div>
-                </div>
-            </div>
-        </div><br>
+            </nav>
         </div>
-     
+     </div>
 
+
+    <div class="container body-content">
+             @RenderBody()
+    </div>
+
+
+  
+ 
 <br><br>
        @{IgnoreBody();}
         
-        <footer class="jumbotron" id="footer" >
-            <p>Copy Rights Reserved For Zowarah limited 2017</p>
-        </footer>
+        <div class="footer white">
+            <div class="row" style="height:80%">
+                <div class="col-md-4">
+                    <ul>
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-center">
+                <p>Copy Rights Reserved For Zowarah limited 2017</p>
+            </div>
+            
+        </div>
 
->>>>>>> 56efa5c777b12d332b5f8548946af5f18e6b6c70
 
     <environment names="Development">
         <script src="~/lib/angular/angular.min.js"></script>

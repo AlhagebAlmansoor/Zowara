@@ -1,22 +1,8 @@
 -p C:\Program Files\dotnet\dotnet.exe
-<<<<<<< HEAD
 -pidFile C:\projects\Zowara\WebPortal\bin\IISSupport\pidfile.txt
 -wd C:\projects\Zowara\WebPortal
 -a exec "C:\projects\Zowara\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.dll"
--wbe Global\Build9daab9ec-f7d3-4847-9c18-a3a619dc5c1c
--lse Global\Launch1d56ca5b-3f63-4142-ae68-bde7e5ef77d7
--pipe 859454c7-b598-49d6-8b64-cb80daeb9929
+-pipe 183a298b-725a-488d-83f3-6ebe88d7e722
 -pr WebPortal
--owningPid 5984
+-owningPid 20248
 -env ASPNETCORE_CONTENTROOT=C:\projects\Zowara\WebPortal|ASPNETCORE_ENVIRONMENT=Development|COMPLUS_ForceENC=1|
-=======
--pidFile D:\Programming\projects\Zowara\WebPortal\bin\IISSupport\pidfile.txt
--wd D:\Programming\projects\Zowara\WebPortal
--a exec "D:\Programming\projects\Zowara\WebPortal\bin\Debug\netcoreapp1.1\WebPortal.dll"
--wbe Global\Build14099aa9-24cd-457a-87e7-2fb013ccf1ae
--lse Global\Launchb1e21056-a3b5-453c-93ef-ad52f531590d
--pipe 3d872887-e350-4d80-855f-45c1906526f9
--pr WebPortal
--owningPid 2268
--env ASPNETCORE_CONTENTROOT=D:\Programming\projects\Zowara\WebPortal|ASPNETCORE_ENVIRONMENT=Development|COMPLUS_ForceENC=1|
->>>>>>> 56efa5c777b12d332b5f8548946af5f18e6b6c70

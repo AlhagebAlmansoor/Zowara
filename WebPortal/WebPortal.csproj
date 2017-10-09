@@ -6,20 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\BusTravelController.cs" />
-    <Compile Remove="Controllers\CarRentalController.cs" />
-    <Compile Remove="Controllers\FlightsController.cs" />
-    <Compile Remove="Repository\IRepository.cs" />
-    <Compile Remove="Repository\Repository.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="AngularJS.Core" Version="1.6.5" />
-    <PackageReference Include="jQuery" Version="3.2.1" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
@@ -35,31 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
-<<<<<<< HEAD
-    <Folder Include="Views\Customers\" />
-    <Folder Include="Views\Admins\" />
-    <Folder Include="Views\Providers\Hotels\" />
-    <Folder Include="Views\Providers\CarRentals\" />
-    <Folder Include="Views\Providers\Food\" />
-    <Folder Include="Views\Providers\Travel\" />
-=======
-    <Folder Include="Domain\Business Modules\Car Rental\" />
-    <Folder Include="Domain\Business Modules\Flights\" />
-    <Folder Include="Domain\Business Modules\Hotel\" />
-    <Folder Include="Domain\Business Modules\Travel\" />
-    <Folder Include="Domain\Administration\" />
-    <Folder Include="Domain\Administration\Users\" />
-    <Folder Include="Domain\Administration\Providers\" />
-    <Folder Include="Domain\Administration\Zowara\" />
-    <Folder Include="Domain\Shared Services\Payments\" />
-    <Folder Include="Domain\Shared Services\" />
-    <Folder Include="Repository\" />
-    <Folder Include="Views\Shared\" />
->>>>>>> 56efa5c777b12d332b5f8548946af5f18e6b6c70
-    <Folder Include="wwwroot\css\" />
-    <Folder Include="wwwroot\images\" />
-    <Folder Include="wwwroot\js\" />
+    <Folder Include="Domain\" />
   </ItemGroup>
 
 </Project>
