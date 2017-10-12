@@ -8,3 +8,4 @@ C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.AssemblyIn
 C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.AssemblyInfo.cs
 C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.dll
 C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.pdb
+C:\projects\Zowara\Services\Payments\obj\Debug\netcoreapp1.1\Payments.csprojResolveAssemblyReference.cache

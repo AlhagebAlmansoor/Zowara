@@ -8,7 +8,9 @@ namespace WebPortal.Repository
 {
     public class HotelRepository: IHotelRepository
     {
-        ServiceContext context = new ServiceContext();
+        private ServiceContext context;
+
+
 
         public IEnumerable<Hotel> GetAll()
         {

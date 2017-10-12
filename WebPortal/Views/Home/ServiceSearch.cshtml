@@ -1,0 +1,392 @@
+
+@{
+    ViewData["Title"] = "ServiceSearch";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<style>
+    .cust-side-search-panel {
+        min-height:300px;
+        width:100%;
+        background-color:#fab801;
+        border-radius:4px;
+        margin-bottom:4px;
+    }
+
+    .cust-side-search-panel .row
+    {
+        padding:0 10px 0px 10px;
+        margin-bottom:3px;
+    }
+    .main-panel {
+        width:90%;
+        padding:0px;
+        min-height:100px;
+        
+    }
+    .cust-search-filter-panel {
+        float:none;
+        min-height:500px;
+    }
+
+    .cust-btn-submit {
+        padding-right: 20px;
+    }
+
+    .cust-img-service{
+        height:250px;
+        width:200px;
+        padding:0px;
+    }
+
+    .cust-search-result-panel 
+    {
+        margin-bottom:5px;   
+    }
+
+    .cust-stars-panel{
+        color:#fab801;
+    }
+
+    .cust-feature-extreme{
+        color:#ff0000;
+    }
+
+    .cust-feature-normal{
+        color:green;
+    }
+
+    .cust-feature-img img{
+        width:25px;
+        height:25px;
+    }
+
+    .green{
+        color:green;
+    }
+    .cust-btn-block {
+        padding:5px;
+    }
+</style>
+<div class="container  main-panel">
+    
+
+     <div class="col-md-3 ">
+         <div class="container cust-side-search-panel">
+             <div class="row ">
+                 <label class="control-label">Location</label>
+                 <input type="text" class="form-control" />
+             </div>
+
+             <div class="row">
+                 <label class="control-label">From</label>
+                 <input type="text" class="form-control" />
+             </div>
+             <div class="row">
+                 <label class="control-label">To</label>
+                 <input type="text" class="form-control" />
+             </div>
+
+
+             <div class="row">
+                 <label class="col-md-7 control-label">No. Of Rooms</label>
+                 <div class="col-md-5">
+                     <select class="form-control">
+                         <option>1</option>
+                         <option>2</option>
+                         <option>3</option>
+                     </select>
+                 </div>
+             </div>
+
+             <div class="row">
+                 <label class="col-md-7 control-label">No. Of Children</label>
+                 <div class="col-md-5">
+                     <select class="form-control">
+                         <option>1</option>
+                         <option>2</option>
+                         <option>3</option>
+                     </select>
+                 </div>
+             </div>
+
+             <div class="row cust-btn-submit">
+                 <input type="button" class="btn pull-right btn-primary" value="SEARCH" />
+             </div>
+         </div>
+
+
+         <div class="panel panel-primary cust-search-filter-panel">
+             <div class="panel-heading">
+                 <h4>Filter By</h4>
+             </div>
+             <div class="panel-body">
+                 <div class="container-fluid">
+
+                     <div class="row">
+                         <h5>Category 1</h5>
+                     </div>
+
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+
+                     <br />
+                     <div class="row">
+                         <h5>Category 2</h5>
+                     </div>
+
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <br />
+                     <div class="row">
+                         <h5>Category 3</h5>
+                     </div>
+
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <br />
+                     <div class="row">
+                         <h5>Category 1</h5>
+                     </div>
+
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+                     <div class="row">
+                         <input type="checkbox" class="checkbox-inline" /> Filter 1
+                     </div>
+
+                 </div>
+             </div>
+         </div>
+     </div> <!-- First Section -->
+
+
+
+    <div class="col-md-9 ">
+                     <div class="row cust-search-result-panel table-bordered ">
+                         <div class="col-md-3 ">
+                                <img src="~/images/scenery1.jpg" class="cust-img-service" />
+                         </div>
+                         <div class="col-md-9">
+                             <div class="row">
+                                 <div class="col-md-8">
+                                     <h3>Hotel Name</h3>
+                                     <div>
+                                         Rating
+                                         <span class="cust-stars-panel">
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                         </span>
+                                     </div>
+                                     <span>
+                                         <a>Kuala Lampur Centeral Park - View on map</a>
+                                     </span>
+                                     <div class="cust-feature-panel cust-feature-extreme">
+                                         <span class="glyphicon glyphicon-credit-card"></span> 3 People Watching
+                                     </div>
+                                     <div class="cust-feature-panel cust-feature-normal">
+                                         <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                                     </div>
+                                     <div class="cust-feature-panel cust-feature-normal">
+                                         <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                                     </div>
+                                     <div class="cust-feature-panel cust-feature-normal">
+                                         <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                                     </div>
+
+                                     <div class="cust-feature-img">
+                                         <img src="~/images/icon_1.png" />
+                                         <img src="~/images/icon_2.png" />
+                                         <img src="~/images/icon_3.png" />
+                                     </div>
+
+                                 </div>
+                                 <div class="col-md-4  text-right">
+                                     <h3>Very Good</h3>
+                                     Reviews
+                                 </div>
+                             </div>
+
+                             <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="cust-feature-panel cust-feature-normal">
+                                            <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                                        </div>
+                                        <div class="cust-feature-panel cust-feature-extreme">
+                                             Reservation possible without a credit card
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 green text-right ">
+                                        <h3>MRP 1250</h3>
+                                    </div>
+                             </div>
+
+                             <div class="row pull-right cust-btn-block">
+                                 <input type="button" class="btn-primary" value="Select" style="width:150px" />
+                             </div>
+                         </div>
+                     </div>
+
+        <div class="row cust-search-result-panel table-bordered ">
+            <div class="col-md-3 ">
+                <img src="~/images/scenery1.jpg" class="cust-img-service" />
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Hotel Name</h3>
+                        <div>
+                            Rating
+                            <span class="cust-stars-panel">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </span>
+                        </div>
+                        <span>
+                            <a>Kuala Lampur Centeral Park - View on map</a>
+                        </span>
+                        <div class="cust-feature-panel cust-feature-extreme">
+                            <span class="glyphicon glyphicon-credit-card"></span> 3 People Watching
+                        </div>
+                        <div class="cust-feature-panel cust-feature-normal">
+                            <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                        </div>
+                        <div class="cust-feature-panel cust-feature-normal">
+                            <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                        </div>
+                        <div class="cust-feature-panel cust-feature-normal">
+                            <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                        </div>
+
+                        <div class="cust-feature-img">
+                            <img src="~/images/icon_1.png" />
+                            <img src="~/images/icon_2.png" />
+                            <img src="~/images/icon_3.png" />
+                        </div>
+
+                    </div>
+                    <div class="col-md-4  text-right">
+                        <h3>Very Good</h3>
+                        Reviews
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="cust-feature-panel cust-feature-normal">
+                            <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                        </div>
+                        <div class="cust-feature-panel cust-feature-extreme">
+                            Reservation possible without a credit card
+                        </div>
+                    </div>
+                    <div class="col-md-4 green text-right ">
+                        <h3>MRP 1250</h3>
+                    </div>
+                </div>
+
+                <div class="row pull-right cust-btn-block">
+                    <input type="button" class="btn-primary" value="Select" style="width:150px" />
+                </div>
+            </div>
+        </div> <!-- Service Result -->
+
+        <div class="row cust-search-result-panel table-bordered ">
+            <div class="col-md-3 ">
+                <img src="~/images/scenery1.jpg" class="cust-img-service" />
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Hotel Name</h3>
+                        <div>
+                            Rating
+                            <span class="cust-stars-panel">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </span>
+                        </div>
+                        <span>
+                            <a>Kuala Lampur Centeral Park - View on map</a>
+                        </span>
+                        <div class="cust-feature-panel cust-feature-extreme">
+                            <span class="glyphicon glyphicon-credit-card"></span> 3 People Watching
+                        </div>
+                        <div class="cust-feature-panel cust-feature-normal">
+                            <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                        </div>
+                        <div class="cust-feature-panel cust-feature-normal">
+                            <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                        </div>
+                        <div class="cust-feature-panel cust-feature-normal">
+                            <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                        </div>
+
+                        <div class="cust-feature-img">
+                            <img src="~/images/icon_1.png" />
+                            <img src="~/images/icon_2.png" />
+                            <img src="~/images/icon_3.png" />
+                        </div>
+
+                    </div>
+                    <div class="col-md-4  text-right">
+                        <h3>Very Good</h3>
+                        Reviews
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="cust-feature-panel cust-feature-normal">
+                            <span class="glyphicon glyphicon-credit-card"></span> Reservation possible without a credit card
+                        </div>
+                        <div class="cust-feature-panel cust-feature-extreme">
+                            Reservation possible without a credit card s
+                        </div>
+                    </div>
+                    <div class="col-md-4 green text-right ">
+                        <h3>MRP 1250</h3>
+                    </div>
+                </div>
+
+                <div class="row pull-right cust-btn-block">
+                    <input type="button" class="btn-primary" value="Select" style="width:150px" />
+                </div>
+            </div>
+        </div> <!-- Service Result -->
+    </div> <!-- Third Section -->
+
+        
+</div> <!-- Main Container-->
+

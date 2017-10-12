@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "SetUp";
+    Layout = "~/Views/Shared/_HotelLayout.cshtml";
+}
+
+<style>
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+        color: #fff;
+    }
+
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+        color: #fff;
+    }
+
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+
+        .sidebar-nav .navbar li a {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            color: #fff;
+            text-align:center;
+        }
+        .sidebar-nav .navbar li a:hover {
+            color: #fff;
+        }
+        .sidebar-nav .navbar-nav {
+            background-color:#000;
+        }
+
+    .sidebar-nav .navbar-nav > .active > a,
+    .sidebar-nav .navbar-nav > .active > a:hover,
+    .sidebar-nav .navbar-nav > .active > a:focus {
+        color: #fff;
+        background-color: #ff6a00;
+    }
+
+    .cust-main-container {
+        min-height: 600px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .col-sm-3 {
+        height: 100%;
+    }
+
+    .cust-side-bar {
+        height: 100%;
+   
+        background-color: #000;
+    }
+
+</style>
+
+
+<div class="container cust-main-container">
+    <div class="row">
+        <h2>Hotel SetUp</h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="sidebar-nav">
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="navbar-collapse collapse sidebar-navbar-collapse cust-side-bar">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="@Url.Action("BasicInfo","Hotel")">Basic Info</a></li>
+                            <li><a href="@Url.Action("BasicInfo","Hotel")">Property Details</a></li>
+                            <li><a href="@Url.Action("PropertyDetails","Hotel")">Property Details</a></li>
+                            <li><a href="@Url.Action("RoomDetails","Hotel")">Room Details</a></li>
+                            <li><a href="@Url.Action("RoomAmenities","Hotel")">Room Amenities</a></li>
+                            <li><a href="@Url.Action("Photos","Hotel")">Photos</a></li>
+                            <li><a href="@Url.Action("Payment","Hotel")">Payment & Policies</a></li>
+                            <li><a href="@Url.Action("Agreement","Hotel")">Agreement</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-9">
+            @RenderBody()
+        </div>
+    </div>
+</div>

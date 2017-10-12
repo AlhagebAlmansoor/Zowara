@@ -1,0 +1,52 @@
+﻿@model WebPortal.Controllers.Shared.LoginViewModel
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<style>
+    .cust-login-panel{
+        width:400px;
+    }
+    .form-horizontal .row{
+        margin-bottom:2px;
+    }
+    .cust-login-panel .btn-primary {
+        width:100px;
+    }
+
+</style>
+
+<h2>Clients Login</h2>
+<form asp-controller="Users" asp-action="Login" method="post">
+
+<div class="container form-horizontal cust-login-panel">
+    <div class="row">
+        <span class="control-label">Login Id</span>
+        <input type="text" asp-for="LoginId" class="form-control" />
+    </div>
+
+    <div class="row">
+        <span class="control-label">Password</span>
+        <input type="password" asp-for="Password" class="form-control" />
+    </div>
+
+    <div class="row">
+        <input type="checkbox" asp-for="RememberMe" class="checkbox" />
+        <span>Remember Me</span>
+    </div>
+    <div class="row">
+            <div class="form-inline">
+                <input type="button" class="form-control btn-primary inline"  value="Login" />
+                <span ><a href="">Forgot Password?</a></span>
+            </div>
+                
+                
+        </div>
+    <br />
+    <div class="row">
+        <h5><a href="">Not Registered? Sign up New Account </a></h5>
+    </div>
+
+</div>
+
+    </form>

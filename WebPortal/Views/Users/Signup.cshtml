@@ -1,0 +1,72 @@
+﻿@model WebPortal.Controllers.Shared.RegisterViewModel
+@{
+    ViewData["Title"] = "Signup";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+
+<style>
+    .cust-login-panel {
+        width: 400px;
+    }
+
+    .form-horizontal .row {
+        margin-bottom: 2px;
+    }
+
+    .cust-login-panel .btn-primary {
+        width: 100px;
+    }
+
+    
+</style>
+<h2>Sign Up</h2>
+<form asp-controller="Users" asp-action="Signup" method="post">
+    <div asp-validation-summary="ModelOnly"></div> 
+    <div class="container form-horizontal cust-login-panel">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="control-label">Email</span>
+                <input type="text" asp-for="LoginId" class="form-control" />
+                <span asp-validation-for="LoginId"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <span class="control-label">First Name</span>
+                <input type="text" asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName"></span>
+            </div>
+            <div class="col-md-6">
+                <span class="control-label">Last Name</span>
+                <input type="text" asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <span class="control-label">Password</span>
+                <input type="password" asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <span class="control-label">Confirm Password</span>
+                <input type="password" asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <input type="submit" class="form-control btn-primary" value="Submit" />
+            </div>
+        </div>
+
+        <div class="row">
+            <span>@ViewData["error"]</span>
+        </div>
+
+    </div>
+
+</form>

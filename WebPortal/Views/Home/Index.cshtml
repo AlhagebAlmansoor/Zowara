@@ -1,48 +1,112 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
 }
+
+
 <style>
-    .search-panel {
-        height:300px;
+    .cust-panel-search {
+        height: 250px;
+    }
+
+    .panel .row {
+        padding-bottom: 4px;
+        padding-right: 2px;
+    }
+
+    .panel div {
+        padding-left: 2px;
+    }
+
+    .btn-submit {
+        height: 32px;
+        width: 200px;
     }
 </style>
-<script src="~/Scripts/Angular.js"></script>
-<div class="row table-bordered">
-    <div class="col-md-6">
-        <div class="panel panel-primary search-panel">
-            <div class="panel-heading">
-                Search
-            </div>
-            <div class="panel-body">
-                    <form class="row">
-                            <div class="col-md-12">
-                                <label class="col-md-2 control-label">Location</label>
-                                <input type="text" id="" class="form-control input-sm" />
-                            </div>
-                            <div class="col-md-4">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-primary cust-panel-search">
+                <div class="panel-heading">
+                    Search
+                </div>
+                <div class="panel-body">
+
+                    <div class="row">
+                        <label class="col-md-4 control-label">Location</label>
+                        <div class="col-md-8"><input type="text" class="form-control" /></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="col-md-4 control-label">From</label>
+
+                            <div class="col-md-8">
+                                <div class="col-md-4 text-left ">
+                                    <input type="text" class="form-control" />
+                                </div>
                                 <label class="col-md-2 control-label">From</label>
-                                <input type="text"  class="form-control input-sm" />
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" />
+                                </div>
                             </div>
-                          
-                    </form>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                Advertisement 1
-            </div>
-            <div class="panel-body">
+                        </div>
+                    </div>
 
-            </div>
-        </div>
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                Advertisement 1
-            </div>
-            <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="col-md-4 control-label">No. Of Children</label>
 
+                            <div class="col-md-3 text-left ">
+                                <select class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="col-md-4 control-label">From</label>
+                            <div class="col-md-3">
+                                <select class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row pull-right">
+                        <input type="button" class="btn-primary btn-submit btn-xs" value="Search" />
+
+                    </div>
+
+                </div> <!-- Panel Body -->
+            </div> <!-- Panel -->
+        </div> <!-- Col 1 - Row 1 -->
+
+
+        <div class="col-md-6">
+            <div class="panel panel-primary cust-panel-ads">
+                <div class="panel-heading">
+                    Ads 1
+                </div>
+                <div class="panel-body">
+                    IMAGE
+                </div>
+            </div>
+            <div class="panel panel-primary cust-panel-ads">
+                <div class="panel-heading">
+                    Ads 1
+                </div>
+                <div class="panel-body">
+                    IMAGE
+                </div>
             </div>
         </div>
     </div>

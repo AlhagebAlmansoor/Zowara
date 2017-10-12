@@ -1,0 +1,78 @@
+﻿@using WebPortal.Controllers.Portals
+@model ServicesViewModel
+@{
+    ViewData["Title"] = "Services";
+    Layout = "~/Views/Shared/_ProviderLayout.cshtml";
+}
+
+<style>
+    .cust-add-panel .row {
+        margin-bottom: 8px;
+    }
+    .cust_record_icon
+    {
+        width:25px;
+        height:25px;
+    }
+</style>
+
+<h2>Services</h2>
+
+<form method="post" asp-controller="Provider" asp-action="AddService">
+    <div class="container cust-add-panel">
+        <div class="row">
+            <span>Service Name</span>
+            <input type="text" asp-for="record.Name" class="form-control" />
+        </div>
+        <div class="row">
+            <span>Service Type</span>
+            <select class="form-control" asp-for="record.ServiceTypeId" asp-items="@(new SelectList(ViewBag.ServiceTypes,"Id","Name"))"></select>
+        </div>
+        <div class="row">
+            <span>City</span>
+            <select class="form-control" asp-for="record.CityId" asp-items="@(new SelectList(ViewBag.Cities,"Id","Name"))"></select>
+        </div>
+        <div class="row">
+            <input type="submit" class="btn-primary form-control" value="Add" />
+        </div>
+        <div class="row">
+            <span>@ViewData["Result"]</span>
+        </div>
+    </div>
+</form>
+
+
+<div class="container cust-view-panel">
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+        <th>Service Id</th>
+        <th>Service Type</th>
+        <th>Service Name</th>
+        <th>City</th>
+        <th>Create Date</th>
+        <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+            @foreach (var record in Model.Records)
+            {
+                <tr>
+                    <td>@record.Id</td>
+                    <td>@record.ServiceTypeName</td>
+                    <td>@record.ServiceTypeName</td>
+                    <td>@record.CityName</td>
+                    <td>@record.CreateDate</td>
+                    <td>@record.ServiceStatusName</td>
+                    <td><a href="#"><img src="~/images/icon_config_1.png" class="cust_record_icon" /></a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+    
+
+
+
+
+

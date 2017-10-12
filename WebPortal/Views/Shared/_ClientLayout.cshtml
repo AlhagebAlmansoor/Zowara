@@ -1,0 +1,139 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebPortal</title>
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link href="~/lib/bootstrap/dist/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+
+    </environment>
+
+
+    <style>
+        .header {
+            margin-top: -50px;
+            width: 100%;
+        }
+
+        .header-caption {
+            background-color: #003357;
+            height: 100px;
+        }
+
+        .footer {
+            background-color: #003357;
+            height: 200px;
+            margin-bottom: -300px;
+            width: 100%;
+        }
+
+        .navbar, .navbar-inverse {
+            border-radius: 0px;
+            height:70px;
+        }
+
+        .body-content {
+            height: 415px;
+        }
+
+        .white-text {
+            color: #fff;
+        }
+        .navbar-inverse .navbar-nav   li
+        {
+            width:120px;
+        }
+
+        .navbar-inverse .navbar-nav > .active > a,
+        .navbar-inverse .navbar-nav > .active > a:hover,
+        .navbar-inverse .navbar-nav > .active > a:focus {
+            height:69px;
+            color:#fff;
+            background-color: #ff6a00;
+            text-align:center;
+        }
+
+        .navbar-inverse .navbar-nav li a {
+            color: #fff;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container header">
+        <div class="row header-caption">
+            <h3 class="white-text">Zowara Client Portal </h3>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"></a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Payments</a></li>
+                        <li><a href="#">Transfers</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <div class="container footer">
+
+    </div>
+
+
+
+
+    <environment names="Development">
+        <script src="~/lib/angular/angular.min.js"></script>
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

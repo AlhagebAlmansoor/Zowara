@@ -9,6 +9,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using WebPortal.Domain;
+using WebPortal.Security;
+using Microsoft.AspNetCore.Identity;
+using WebPortal.Domain.Shared;
+using Microsoft.AspNetCore.Http;
 
 namespace WebPortal
 {
@@ -29,14 +33,29 @@ namespace WebPortal
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+
+            // Add DbContext
+            services.AddDbContext<ServiceContext>();
+
+            //Adding identity
+            services.AddIdentity<AppUser, AppRole>()
+                .AddEntityFrameworkStores<ServiceContext>()
+                .AddDefaultTokenProviders();
+
+            // Add Seed
+            services.AddTransient<AppInitializer>();
+
+            // Default Login Page
+            services.ConfigureApplicationCookie(options => options.LoginPath = "/users/login");
+
             // Add framework services.
             services.AddMvc();
            // Console.WriteLine("HELLO WORLD !");
-            //services.AddDbContext<ServiceContext>(options => options.UseSqlServer("Server=(local)\\SQLEXPRESS; Database = Zowara;user id=sa;password=Saadmin90"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, AppInitializer appInitializer)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
@@ -52,6 +71,10 @@ namespace WebPortal
             }
 
             app.UseStaticFiles();
+            app.UseIdentity();
+
+            // Seeding
+           // appInitializer.Seed().Wait();
 
             app.UseMvc(routes =>
             {
@@ -59,6 +82,7 @@ namespace WebPortal
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
         }
     }
 }
