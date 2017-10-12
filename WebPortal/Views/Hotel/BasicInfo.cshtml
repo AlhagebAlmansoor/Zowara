@@ -4,5 +4,92 @@
     Layout = "~/Views/Hotel/SetUp.cshtml";
 }
 
+<style>
+        .cust-child-container {
+            padding-left:50px;
+        }
+
+        .cust-child-container .row {
+            margin-bottom:2px;
+        }
+
+        .col-md-4 {
+            padding-left:0px;
+        }
+        .cust-map-placeholder {
+            width:58%;
+            height:100px;
+            background-color:lightgray;
+            padding-top:50px;
+        }
+
+    .cust-btn-submit {
+        width: 58%;
+    }
+</style>
+
+
 <h2>BasicInfo</h2>
+<div class="container cust-child-container">
+    <form method="post" asp-controller="Hotel" asp-action="AddBasicInfo">
+
+        <div class="row">
+            <label class="control-label">Property Name</label>
+            <input type="text" class="form-control" />
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label class="control-label">Payment Type</label>
+                <select class="form-control"></select>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label">Star Rating</label>
+                <select class="form-control"></select>
+            </div>
+        </div>
+
+        <div class="row">
+            <label class="control-label">No. Of Rooms</label>
+            <input type="text" class="form-control" />
+        </div>
+
+        <div class="row">
+            <h2>Address</h2>
+        </div>
+        <div class="row">
+            <label class="control-label">Property Name</label>
+            <input type="text" class="form-control" />
+        </div>
+        <div class="row">
+            <label class="control-label">Property Name</label>
+            <input type="text" class="form-control" />
+        </div>
+
+        <div class="row">
+            <label class="control-label">Payment Type</label>
+            <select class="form-control"></select>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label class="control-label">Star Rating</label>
+                <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-4">
+                <label class="control-label">Payment Type</label>
+                <input type="text" class="form-control" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="cust-map-placeholder text-center">MAP</div>
+        </div>
+
+        <div class="row table-bordered">
+                <input type="button" class="btn" value="Continue " style="width:50px;" />
+        </div>
+        </form>
+</div>
+
+
+
 

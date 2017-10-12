@@ -2,8 +2,6 @@
 -pidFile C:\projects\Zowara\WebPortal\bin\IISSupport\pidfile.txt
 -wd C:\projects\Zowara\WebPortal
 -a exec "C:\projects\Zowara\WebPortal\bin\Debug\netcoreapp2.0\WebPortal.dll"
--wbe Global\Build5dc5079f-f731-4963-bac6-cc09a6619913
--lse Global\Launchd15acafe-e122-482a-9cc0-d2ec16b46add
 -pipe 2323bcca-3ba3-4aa0-8936-06bdf7846192
 -pr WebPortal
 -owningPid 4244
